@@ -1,18 +1,18 @@
 /* HEADER PORTION */
 body{
     width: 960px;
-    padding: 0 50px;
+    margin: 0px auto;
 }
 
 header {
     width: 960px;
     height: 75px;
-    border-bottom: 10px solid rgb(216, 214, 214);
+    border-bottom: 15px solid rgb(216, 214, 214);
     margin-top: 30px auto;
 }
 
 header h1 {
-    font-size: 42px;
+    font-size: 30px;
     font-family: 'Pacifico', cursive;
     font-style: italic;
 }
@@ -21,6 +21,7 @@ header h2 {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    color: gray;
 }
 
 header nav {
@@ -44,5 +45,57 @@ nav {
 
 main {
     width: 960px;
-    padding: 50px;
+    padding-top: 50px;
+}
+
+main h1 { 
+    font-size: 50px;
+    font-family: 'Impact', sans-serif;
+}
+main img{ 
+    width: 960px;
+}
+
+main h2 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: grey;
+    padding-bottom: 40px;
+}
+
+main ul {
+    background-image: url(img/list-bg.png);
+    column-count: 2;
+    height: 200px;
+    padding: 30px;
+    line-height: 1.5;
+    margin: 0px 20px;
+}
+
+main li {
+    font-family: cursive;
+    margin: 4px;
+    color: rgba(102, 119, 71, 0.856);
+}
+
+main p {
+ color: grey;
+ padding-top: 10px;
+ text-indent: 30px;
+ padding-bottom: 10px;
+ width: 960px;
+}
+
+.crossed{
+    text-decoration: line-through;
+}
+
+/* Footer */
+footer {
+    width: 960px;
+    height: 75px;
+    border-top: 15px solid rgb(216, 214, 214);
+    margin-bottom: 30px auto;
+    display: inline-block;
 }
